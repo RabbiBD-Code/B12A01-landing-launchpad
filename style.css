@@ -1,7 +1,7 @@
 
-body{
+/* body{
     background-color: rgba(240, 240, 248, 0.692);
-}
+} */
 *{
     margin: 0;
     padding: 0;
@@ -78,11 +78,15 @@ nav ul a{
     border-radius: 48px;
 }
 /* main */
+main{
+    background-color: rgba(240, 240, 248, 0.692);;
+}
 .action{
     display: flex;
     align-items: center;
     gap: 200px;
-    margin: 100px 120px;
+    margin: auto;
+    padding: 116px;
     width: 1100px;
     height: 350px;
 }
